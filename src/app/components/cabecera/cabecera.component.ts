@@ -36,4 +36,14 @@ export class CabeceraComponent {
       }
     }
   }
+
+  cerrarMenu(){
+    let menu = document.getElementById('menu_cabecera');
+    if (menu && window.screen.width <= 768) {
+      if (menu.style.display != 'none') {
+        menu.style.display = 'none';
+      } 
+    }
+
+  }
 }

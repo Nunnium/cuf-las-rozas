@@ -1,24 +1,75 @@
 {
-   "documentos" : [
-    {
-        "literal": "Ficha inscripción",
-        "destino": "/assets/documentos/Ficha_CUF_LAS_ROZAS.pdf"
+    "proximosPartidos": {
+        "view": true,
+        "title": "Proximos Partidos",
+        "objects": [
+            {
+                "equipo": "Senior Masculino",
+                "fecha": " Domingo 15 - 16:00",
+                "url": "https://www.unihockey.es/liga_plata_24_25/resumen"
+            },
+            {
+                "equipo": "Senior Femenino",
+                "fecha": "Domingo 15 - 18:00",
+                "url": "https://www.unihockey.es/liga_femenina_24_25/resumen"
+            }
+        ]
     },
-    {
-        "literal": "Reglamento regimen interno",
-        "destino": "/assets/documentos/Ficha_CUF_LAS_ROZAS.pdf"
-    }
-   ],
-   "patrocinadores":[
-    {
-        "url": "https://altin.es/",
-        "imagen":"assets/image/altin.png",
-        "alt": "Logo patrocinador Altin solutions"
+    "documentos": {
+        "view": true,
+        "title": "Documentos",
+        "objects": [
+            {
+                "literal": "Ficha inscripción",
+                "url": "/assets/documentos/Ficha_CUF_LAS_ROZAS.pdf"
+            },
+            {
+                "literal": "Reglamento regimen interno",
+                "url": "/assets/documentos/Ficha_CUF_LAS_ROZAS.pdf"
+            }
+        ]
     },
-    {
-        "url": "https://www.izertis.com/es/",
-        "imagen":"assets/image/izertis.png",
-        "alt": "Logo patrocinador Izertis"
+    "patrocinadores": {
+        "view": true,
+        "title": "Patrocinadores",
+        "objects": [
+            {
+                "url": "https://altin.es/",
+                "imagen": "assets/image/altin.png",
+                "alt": "Logo patrocinador Altin solutions"
+            },
+            {
+                "url": "https://www.izertis.com/es/",
+                "imagen": "assets/image/izertis.png",
+                "alt": "Logo patrocinador Izertis"
+            }
+        ]
+    },
+    "redes": {
+        "view": true,
+        "title": "Redes",
+        "objects": [
+            {
+                "url": "https://www.facebook.com/CUFLasRozas",
+                "imagen": "assets/logos/icon-facebook.png",
+                "alt": "acceso Facebook CUF Las Rozas"
+            },
+            {
+                "url": "https://www.instagram.com/cuflasrozas/",
+                "imagen": "assets/logos/icon-instagram.png",
+                "alt": "acceso Instagram CUF Las Rozas"
+            },
+            {
+                "url": "https://x.com/cuflasrozas",
+                "imagen": "assets/logos/icon-twitter.png",
+                "alt": "acceso X (Twitter) CUF Las Rozas"
+            },
+            {
+                "url": "https://www.youtube.com/channel/UCCLwkQ9JqYdcypGsNgUcs_A",
+                "imagen": "assets/logos/icon-youtube.png",
+                "alt": "acceso Youtube CUF Las Rozas"
+            }
+        ]
     }
-   ] 
+
 }

@@ -13,7 +13,7 @@
                     @for (menu of cabecera.menu; track $index) {                        
                      
                             <li class="li_principal">
-                                <a routerLink={{menu.link}}>{{menu.texto}}</a>
+                                <a (click)="cerrarMenu()" routerLink={{menu.link}}>{{menu.texto}}</a>
                             </li>
                         }
             </ul>
