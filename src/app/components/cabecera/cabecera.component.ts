@@ -1,4 +1,4 @@
-import { Component, OnInit  } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { UtilesService } from '../../service/utiles/utiles.service';
 
@@ -14,15 +14,26 @@ export class CabeceraComponent {
   cabecera: any;
 
   constructor(
-    private utilesService:UtilesService
-  ){}
+    private utilesService: UtilesService
+  ) { }
 
-  ngOnInit(){
+  ngOnInit() {
     this.utilesService.obtenerJson('cabecera.json').subscribe(data => {
       console.log(data);
       this.cabecera = data;
     }
     )
+
   }
 
+  abrirMenu() {
+    let menu = document.getElementById('menu_cabecera');
+    if (menu) {
+      if (menu.style.display == 'block') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'block';
+      }
+    }
+  }
 }

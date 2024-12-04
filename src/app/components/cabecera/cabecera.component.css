@@ -1,4 +1,5 @@
 .cabecera {
+    font-size: 30px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -36,10 +37,51 @@
 a {
     padding:10px;
     color: white;
-    font-size: 30px;
     text-decoration: none;
 }
 
 a:hover {    
     color: orange;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 768px){
+    .conjunto {
+        display: flex;
+    }
+    
+    .cabecera {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: block;
+        background-color: inherit;
+        color: white;
+        font-size: 40px;  
+        width: 50%;  
+        border: 0;
+    }
+
+    .logo_cabecera {
+        width: 50%;
+    }
+
+    .menu_cabecera {
+        width: 100%;
+        display: none;
+    }
+
+    .ul_principal {
+        flex-direction: column;
+    }
+
+    /* a{
+        font-size: 25px;
+    } */
+
+ 
 }

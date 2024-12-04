@@ -1,10 +1,14 @@
 @if (cabecera) {
     <div class="cabecera">
+        <div class="conjunto">
+            
         <div class="logo_cabecera">
             <img class="img_logo_cabecera" alt={{cabecera.logo.alt}}
             src={{cabecera.logo.src}}>
         </div>
-        <div class="menu_cabecera">
+        <button id="menu-toggle" class="menu-toggle" (click)="abrirMenu()">Menu</button>
+        </div>
+        <div id="menu_cabecera" class="menu_cabecera">
             <ul class="ul_principal">
                     @for (menu of cabecera.menu; track $index) {                        
                      
