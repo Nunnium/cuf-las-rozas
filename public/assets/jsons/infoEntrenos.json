@@ -1,0 +1,29 @@
+{
+    "title": "Entrenamientos",
+    "listadoEntrenos" : [
+        {
+            "equipo" : "Senior Masculino",
+            "textoDiasHoras": "Lunes y miércoles CEIP Los Olivos de 19:20 a 20:50. Viernes de 21:00 a 22:30."
+        },
+        {
+            "equipo" : "Senior Femenino",
+            "textoDiasHoras": "Lunes y miércoles CEIP Los Olivos de 19:20 a 20:50. Viernes de 21:00 a 22:30."
+        },
+        {
+            "equipo" : "Infantil",
+            "textoDiasHoras": "Viernes de 20:00 a 21:00."
+        },
+        {
+            "equipo" : "Alevín",
+            "textoDiasHoras": "Jueves de 17:30 a 18:30. Viernes de 18:30 a 20:00."
+        },
+        {
+            "equipo" : "Benjamín",
+            "textoDiasHoras": "Viernes de 17:30 a 18:30."
+        },
+        {
+            "equipo" : "Padres",
+            "textoDiasHoras": "Jueves de 17:30 a 18:30."
+        }
+    ]
+}
