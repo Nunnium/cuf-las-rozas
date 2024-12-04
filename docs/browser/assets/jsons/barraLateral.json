@@ -1,0 +1,24 @@
+{
+   "documentos" : [
+    {
+        "literal": "Ficha inscripción",
+        "destino": "/assets/documentos/Ficha_CUF_LAS_ROZAS.pdf"
+    },
+    {
+        "literal": "Reglamento regimen interno",
+        "destino": "/assets/documentos/Ficha_CUF_LAS_ROZAS.pdf"
+    }
+   ],
+   "patrocinadores":[
+    {
+        "url": "https://altin.es/",
+        "imagen":"assets/image/altin.png",
+        "alt": "Logo patrocinador Altin solutions"
+    },
+    {
+        "url": "https://www.izertis.com/es/",
+        "imagen":"assets/image/izertis.png",
+        "alt": "Logo patrocinador Izertis"
+    }
+   ] 
+}
