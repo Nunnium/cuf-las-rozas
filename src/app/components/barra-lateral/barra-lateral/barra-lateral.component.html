@@ -1,0 +1,47 @@
+
+    <div class="barra-lateral">
+
+        @if(this.infoBarraLateral.documentos.length > 0){
+            <div class="documentos">
+                <h3>Documentos</h3>
+                    <ul>
+                        @for (documento of this.infoBarraLateral.documentos; track $index) {
+                            <li>
+                                <a href="{{documento.destino}}" class="enlaceDocs" target="_blank">
+                                    {{documento.literal}}
+                                </a> 
+                            </li>
+                        }
+                    </ul>  
+            </div>
+        }
+
+
+        @if(this.infoBarraLateral.patrocinadores.length>0){
+            <div class="patrocinadores">
+                @if (this.infoBarraLateral.patrocinadores.length == 1) {
+                    <h3>Patrocinador</h3>
+                }@else {
+                    <h3>Patrocinadores</h3>
+                }
+                
+                @for (patrocinador of this.infoBarraLateral.patrocinadores; track $index) {
+                    <div class="logo-patrocinador">
+                        <a href="{{patrocinador.alt}}" target="_blank">
+                            <img class="img-patrocinador" 
+                            alt={{patrocinador.alt}}
+                            src={{patrocinador.imagen}}>
+                        </a>
+                    </div>
+                }
+            </div>
+        }    
+       
+    </div>
+
+
+
+
+
+
+

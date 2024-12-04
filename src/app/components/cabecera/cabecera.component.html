@@ -1,0 +1,21 @@
+@if (cabecera) {
+    <div class="cabecera">
+        <div class="logo_cabecera">
+            <img class="img_logo_cabecera" alt={{cabecera.logo.alt}}
+            src={{cabecera.logo.src}}>
+        </div>
+        <div class="menu_cabecera">
+            <ul class="ul_principal">
+                    @for (menu of cabecera.menu; track $index) {                        
+                     
+                            <li class="li_principal">
+                                <a routerLink={{menu.link}}>{{menu.texto}}</a>
+                            </li>
+                        }
+            </ul>
+        </div>
+    </div>
+}
+
+
+
