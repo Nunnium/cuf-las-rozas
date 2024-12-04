@@ -49,6 +49,21 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px){
+
+    .cabecera {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .logo_cabecera {
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    .img_logo_cabecera {
+        width: 75px;
+    }
+
     .conjunto {
         display: flex;
     }
@@ -61,7 +76,7 @@ a:hover {
         display: block;
         background-color: inherit;
         color: white;
-        font-size: 40px;  
+        font-size: 35px;  
         width: 50%;  
         border: 0;
     }

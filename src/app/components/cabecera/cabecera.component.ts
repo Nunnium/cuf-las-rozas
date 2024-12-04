@@ -19,7 +19,6 @@ export class CabeceraComponent {
 
   ngOnInit() {
     this.utilesService.obtenerJson('cabecera.json').subscribe(data => {
-      console.log(data);
       this.cabecera = data;
     }
     )
