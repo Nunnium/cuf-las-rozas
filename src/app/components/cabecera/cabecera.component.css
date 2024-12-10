@@ -38,6 +38,7 @@ a {
     padding:10px;
     color: white;
     text-decoration: none;
+    display: inline-block;
 }
 
 a:hover {    
@@ -47,6 +48,13 @@ a:hover {
 .menu-toggle {
     display: none;
 }
+
+@media screen and (min-width: 768px) {
+    .menu_cabecera {
+        display: block;
+    }
+}
+
 
 @media only screen and (max-width: 768px){
 
@@ -94,9 +102,9 @@ a:hover {
         flex-direction: column;
     }
 
-    /* a{
-        font-size: 25px;
-    } */
+   .mostrar_menu_cabecera {
+    display: block;
+   }
 
  
 }

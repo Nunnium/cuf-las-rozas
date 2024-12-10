@@ -12,6 +12,7 @@ import { UtilesService } from '../../service/utiles/utiles.service';
 
 export class CabeceraComponent {
   cabecera: any;
+  menuChequed = false;
 
   constructor(
     private utilesService: UtilesService
@@ -26,23 +27,22 @@ export class CabeceraComponent {
   }
 
   abrirMenu() {
+    this.menuChequed = !this.menuChequed;
     let menu = document.getElementById('menu_cabecera');
     if (menu) {
-      if (menu.style.display == 'block') {
-        menu.style.display = 'none';
+      if (this.menuChequed){
+        menu.classList.add('mostrar_menu_cabecera');
       } else {
-        menu.style.display = 'block';
+        menu.classList.remove('mostrar_menu_cabecera');
       }
     }
   }
 
   cerrarMenu(){
+    this.menuChequed = !this.menuChequed;
     let menu = document.getElementById('menu_cabecera');
     if (menu && window.screen.width <= 768) {
-      if (menu.style.display != 'none') {
-        menu.style.display = 'none';
-      } 
-    }
-
+      menu.classList.remove('mostrar_menu_cabecera');
+    } 
   }
 }
