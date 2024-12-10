@@ -5,6 +5,7 @@ import { NotFoundComponent } from './components/paginas/not-found/not-found.comp
 import { ContactoComponent } from './components/paginas/contacto/contacto/contacto.component';
 import { EntrenamientosComponent } from './components/paginas/entrenamientos/entrenamientos.component';
 import { TiendaComponent } from './components/paginas/tienda/tienda.component';
+import { HistoriaComponent } from './components/paginas/historia/historia.component';
 
 export const routes: Routes = [
     {path: '', component: InicioComponent},
@@ -13,5 +14,6 @@ export const routes: Routes = [
     {path: 'contacto', component: ContactoComponent},
     {path: 'entrenamientos', component: EntrenamientosComponent},
     {path: 'tienda', component: TiendaComponent},
+    {path: 'historia', component: HistoriaComponent},
     {path: '**', component: NotFoundComponent},
 ];
